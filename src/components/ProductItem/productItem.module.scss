@@ -4,9 +4,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 24px;
-
-
-    margin: 50px 0;
+    margin: 40px 0;
 
 &_images {
 
@@ -67,6 +65,7 @@ img {
 
 &_content {
     padding: 10px 0;
+    
 
 &_title {
     font-size: 16px;
@@ -92,22 +91,42 @@ img {
     font-size: 16px;
     font-weight: 700;
     margin: 10px 0;
+    
  
 }
 
 
 &_counter {
     margin:10px 0 ;
+    display: flex;
 
     &_val {
         margin:0 15px;
+        padding: 2px 12px;
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(241, 241, 11);
+        border: .1px solid black;
+        border-radius: 5px;
     }
 
     &_inc {
        cursor: pointer;
+       padding: 2px 12px;
+       font-size: 16px;
+       color: rgb(0, 0, 0);
+       background-color: rgb(84, 241, 11);
+       border: .1px solid black;
+       border-radius: 5px;
     }
     &_dec {
         cursor: pointer;
+        padding: 2px 12px;
+        font-size: 16px;
+        color: rgb(39, 39, 39);
+        background-color: rgb(248, 70, 70);
+        border: .1px solid black;
+        border-radius: 5px;
     }
 
 } 
@@ -116,8 +135,10 @@ img {
 &_btn {
     background-color: orange;
     border: none;
-    padding: 10px 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
     cursor: pointer;
+    margin-left: 30px;
 }
 
 }

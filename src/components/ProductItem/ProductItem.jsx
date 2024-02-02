@@ -65,11 +65,12 @@ console.log(cartData)
 <h2 className={classes.product_content_text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fuga alias quae voluptatum nihil, officia aperiam tempora suscipit autem necessitatibus, voluptates ducimus culpa. Debitis, velit. Quo voluptate itaque voluptatem soluta.</h2>
 <p className={classes.product_content_price}>{counter*productPrice}</p>
 <div className={classes.product_content_counter}>
-<span className={classes.product_content_counter_dec} onClick={handleDec}>-</span>
-<span className={classes.product_content_counter_val}>{counter}</span>
-<span className={classes.product_content_counter_inc} onClick={handleInc}>+</span>
-</div>
+<button className={classes.product_content_counter_dec} onClick={handleDec}>-</button>
+<button className={classes.product_content_counter_val}>{counter}</button>
+<button className={classes.product_content_counter_inc} onClick={handleInc}>+</button>
 <button className={classes.product_content_btn} onClick={handleAddToCart}>Add to cart </button>
+
+</div>
 
 
 </div>

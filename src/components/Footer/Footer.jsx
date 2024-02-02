@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='container'>
 
 
-        <div className={styles.footer}>Bu hisse footerdir</div>
+        <div className={styles.footer}></div>
     </div>
   )
 }
