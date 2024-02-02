@@ -60,10 +60,12 @@ console.log(cartData)
 
 
 <div className={classes.product_content}>
-<h2 className={classes.product_content_title}>Product Title</h2>
-<h2 className={classes.product_content_desc}>Lorem ipsum dolor sit amet consectetu5655.</h2>
-<h2 className={classes.product_content_text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fuga alias quae voluptatum nihil, officia aperiam tempora suscipit autem necessitatibus, voluptates ducimus culpa. Debitis, velit. Quo voluptate itaque voluptatem soluta.</h2>
-<p className={classes.product_content_price}>{counter*productPrice}</p>
+<h2 className={classes.product_content_title}>Sneaker Company</h2>
+<h2 className={classes.product_content_desc}>  Fall Limited Edition Sneakers</h2>
+<h2 className={classes.product_content_text}>These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.</h2>
+<p className={classes.product_content_price}>$ {counter*productPrice}.00   ...50%</p>
 <div className={classes.product_content_counter}>
 <button className={classes.product_content_counter_dec} onClick={handleDec}>-</button>
 <button className={classes.product_content_counter_val}>{counter}</button>

@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className='container'>
 <header className={classes.header}>
-    <h2 className={classes.header_logo}>sneakers</h2>
+    <h2 className={classes.header_logo}>Sneakers</h2>
   <ul className={classes.header_menu}>
    
     <li className={classes.header_menu_item}>
@@ -56,6 +56,7 @@ const Header = () => {
 
   <div className={classes.header_right}>
     <div className={classes.basket}>
+      <span></span>
         <FiShoppingCart />
     </div>
     <div className={classes.avatar}>
